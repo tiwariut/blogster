@@ -12,6 +12,7 @@ class BlogShow extends Component {
       return (
         <img 
           src={`https://ut-blogster-bucket.s3.ap-south-1.amazonaws.com/${this.props.blog.imageUrl}`}
+          alt={'Blog Image'}
         />
       )
     }
